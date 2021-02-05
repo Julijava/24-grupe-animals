@@ -1,18 +1,10 @@
-class Cat {
-    constructor(name, color, saound) {
-        this.name = name;
-        this.color = color;
-        this.sound = 'Miau miau 🐱😸!';
-    }
+import { Pet } from './Pet.js';
 
-    voice() {
-        console.log(`${this.name} says: ${this.sound}`);
-
-    }
-
-    introduce() {
-        console.log(`Hi, I am ${this.name}, my fur is ${this.color} and I say ${this.sound}`);
-
+class Cat extends Pet {
+    constructor(name, color) {
+        super(name, color);
+        this.breed = 'Cat';
+        this.sound = 'Miau miau 😸😸!';
     }
 
 }
