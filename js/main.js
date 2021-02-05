@@ -1,14 +1,15 @@
 import { Dog } from './components/Dog.js';
+import { Cat } from './components/Cat.js';
 
 const rexas = new Dog('Rexas', 'brown');
-const rikis = new Dog('Rikis', 'white');
+const pukis = new Cat('Pukis', 'white');
 
 
 console.log(rexas);
-console.log(rikis);
+console.log(pukis);
 
 rexas.voice();
-rikis.voice();
+pukis.voice();
 
 rexas.introduce();
-rikis.introduce();
+pukis.introduce();
