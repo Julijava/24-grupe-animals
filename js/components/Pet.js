@@ -1,6 +1,7 @@
 class Pet {
     constructor(name, color, saound) {
         this.breed = 'Unknown animal';
+        this.environment = 'land';
         this.name = name;
         this.color = color;
         this.sound = 'Au miau nom 🐶🐱🐹!';

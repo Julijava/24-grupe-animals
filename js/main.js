@@ -1,20 +1,17 @@
 import { Dog } from './components/Dog.js';
-import { Cat } from './components/Cat.js';
-import { Hamster } from './components/Hamster.js';
+import { Nemo } from './components/Nemo.js';
+import { GoldFish } from './components/GoldFish.js';
 
 const rexas = new Dog('Rexas', 'brown');
-const pukis = new Cat('Pukis', 'white');
-const jorkis = new Hamster('Jorkis', 'golden');
+const nemo = new Nemo('Nemo', 'blue');
+const ariele = new GoldFish('Ariele', 'gold', true);
 
 
-console.log(rexas);
-console.log(pukis);
-console.log(jorkis);
+nemo.voice();
+nemo.introduce();
 
-rexas.voice();
-pukis.voice();
-jorkis.voice();
+console.log(ariele);
+ariele.voice();
+ariele.introduce();
+ariele.makeWish('gauti gyva drakona');
 
-rexas.introduce();
-pukis.introduce();
-jorkis.introduce();
