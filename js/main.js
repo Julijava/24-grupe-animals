@@ -3,6 +3,7 @@ import { Chicken } from './components/Chicken.js';
 import { Parrot } from './components/Parrot.js';
 import { Eagle } from './components/Eagle.js';
 import { Dragonfly } from './components/Dragonfly.js';
+import { Animal } from './components/Animal.js';
 
 const rexas = new Dog('Rexas', 'brown');
 console.log(rexas);
@@ -29,6 +30,11 @@ console.log(dragonfly);
 dragonfly.voice();
 dragonfly.introduce();
 dragonfly.canTell();
+
+const animal = new Animal('name', 'color');
+console.log(animal);
+
+
 
 
 

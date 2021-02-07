@@ -1,10 +1,10 @@
-class Pet {
+class Animal {
     constructor(name, color, sound) {
-        this.breed = 'Unknown animal';
-        this.environment = 'land';
+        this.breed = 'Animal';
+        this.environment = 'land, water, air';
         this.name = name;
         this.color = color;
-        this.sound = 'Au miau nom 🐶🐱🐹!';
+        this.sound = 'Au miau nom cip cveep wuup zzz bul 🐶 🐱 🐹 🐔 🦜 🦅 🐲 🐟 🐠!';
     }
 
     voice() {
@@ -19,4 +19,4 @@ class Pet {
 
 }
 
-export { Pet }
+export { Animal }

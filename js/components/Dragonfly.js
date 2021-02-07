@@ -5,7 +5,7 @@ class Dragonfly extends Bird {
         super(name, color);
         this.breed = 'Dragonfly';
         this.imposter = this.imposter ?? true;
-        this.sound = 'zzzzzz.... 🐉🐲!';
+        this.sound = 'zzz.... 🐉🐲!';
     }
 
     canTell(lies) {
