@@ -1,17 +1,37 @@
 import { Dog } from './components/Dog.js';
-import { Nemo } from './components/Nemo.js';
-import { GoldFish } from './components/GoldFish.js';
+import { Chicken } from './components/Chicken.js';
+import { Parrot } from './components/Parrot.js';
+import { Eagle } from './components/Eagle.js';
+import { Dragonfly } from './components/Dragonfly.js';
 
 const rexas = new Dog('Rexas', 'brown');
-const nemo = new Nemo('Nemo', 'blue');
-const ariele = new GoldFish('Ariele', 'gold', true);
+console.log(rexas);
+
+const chicken = new Chicken('Rokis', 'yellow');
+console.log(chicken);
+chicken.voice();
+chicken.introduce();
+
+const parrot = new Parrot('Ara', 'colorful');
+console.log(parrot);
+parrot.voice();
+parrot.introduce();
 
 
-nemo.voice();
-nemo.introduce();
+const eagle = new Eagle('Agile', 'grey');
+console.log(eagle);
+eagle.voice();
+eagle.introduce();
 
-console.log(ariele);
-ariele.voice();
-ariele.introduce();
-ariele.makeWish('gauti gyva drakona');
+
+const dragonfly = new Dragonfly('Beauty', 'dark blue');
+console.log(dragonfly);
+dragonfly.voice();
+dragonfly.introduce();
+dragonfly.canTell();
+
+
+
+
+
 

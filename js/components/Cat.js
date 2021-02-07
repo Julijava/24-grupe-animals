@@ -6,7 +6,6 @@ class Cat extends Pet {
         this.breed = 'Cat';
         this.sound = 'Miau miau 😸😸!';
     }
-
 }
 
 export { Cat }
